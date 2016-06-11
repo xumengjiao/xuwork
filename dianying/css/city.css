@@ -1,0 +1,214 @@
+a {
+  text-decoration: none; }
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none; }
+
+li {
+  list-style: none; }
+
+input {
+  -webkit-appearance: none;
+  appearance: none;
+  outline: none; }
+
+html {
+  font-size: 100%; }
+
+h1, h2, h3, h4, h5, h6, p {
+  font-size: 0.875rem; }
+
+.green {
+  color: #29CC6D; }
+
+html, body, .container {
+  podition: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%; }
+
+body {
+  background: #F2F2F2; }
+
+.header {
+  width: 100%;
+  height: 2.75rem;
+  background: #1B1B20;
+  position: absolute;
+  top: 0; }
+  .header h2 {
+    color: #fff;
+    text-align: center;
+    line-height: 2.75rem; }
+  .header span {
+    display: block;
+    position: absolute;
+    left: 0.625rem;
+    top: 0.825rem;
+    color: #fff;
+    font-size: 0.875rem;
+    padding-left: 0.8rem; }
+    .header span b {
+      display: inline-block;
+      background: url(../images/IMG_0097_r1_c2.png);
+      width: 0.65rem;
+      height: 0.975rem;
+      background-size: contain;
+      position: absolute;
+      top: 0px;
+      left: 0rem; }
+  .header .more {
+    width: 1.5625rem;
+    height: 0.5rem;
+    background: url(../images/IMG_0097_r2_c19.png);
+    background-size: contain;
+    position: absolute;
+    top: 1.44rem;
+    right: 0.625rem; }
+
+.section {
+  width: 100%;
+  top: 2.75rem;
+  position: absolute;
+  bottom: 0;
+  overflow: auto; }
+  .section .changeCity {
+    width: 100%;
+    height: 2.6875rem;
+    text-align: center;
+    line-height: 2.6875rem;
+    background: #fff;
+    font-size: 0.875rem; }
+    .section .changeCity span {
+      display: block;
+      width: 1.0625rem;
+      height: 1rem;
+      background: url(../images/IMG_0095_r2_c2.png);
+      background-size: contain;
+      position: absolute;
+      right: 1rem;
+      top: 0.8rem; }
+  .section .zhao {
+    height: 3.125rem;
+    width: 90%;
+    background: #fff;
+    margin: 0 auto;
+    height: 1.875rem;
+    margin-top: 0.8125rem;
+    -webkit-display: flex;
+    display: flex;
+    margin-bottom: 0.625rem; }
+    .section .zhao span {
+      display: block;
+      width: 1rem;
+      height: 1.2rem;
+      background: url(../images/IMG_0097_r2_c2.png);
+      background-size: contain;
+      margin: 0.5rem 0.5rem; }
+    .section .zhao input {
+      display: block;
+      border: none;
+      height: 100%;
+      -webkit-flex: 1;
+      flex: 1; }
+  .section .ding {
+    height: 3.75rem;
+    line-height: 3.75rem;
+    padding-left: 1.625rem;
+    background: #fff; }
+    .section .ding span:nth-child(1) {
+      color: #29CC6D;
+      font-size: 0.875rem; }
+    .section .ding span:nth-child(2) {
+      color: #9C9C9C;
+      font-size: 0.75rem;
+      padding-left: 2rem; }
+  .section .city-hot, .section .zi {
+    height: 2.5rem;
+    line-height: 2.5rem;
+    margin-left: 0.6875rem;
+    font-size: 0.75rem;
+    clear: both; }
+  .section .city-ci, .section .zimu {
+    background: #fff; }
+    .section .city-ci li, .section .zimu li {
+      background: #fff;
+      height: 2.5625rem;
+      line-height: 2.5625rem;
+      font-size: 0.75rem;
+      width: 24.7%;
+      float: left;
+      text-align: center;
+      border-bottom: 1px solid #ccc;
+      border-right: 1px solid #ccc;
+      color: #666; }
+      .section .city-ci li:nth-child(4n), .section .zimu li:nth-child(4n) {
+        border-right: none; }
+    .section .city-ci .green, .section .zimu .green {
+      color: #29CC6D; }
+
+.mark {
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.5;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2; }
+
+.cenlender {
+  position: absolute;
+  left: 0;
+  top: 5.3rem;
+  bottom: 0;
+  width: 100%;
+  background: #F2F2F2;
+  z-index: 5; }
+
+.zhao {
+  height: 3.125rem;
+  width: 90%;
+  background: #fff;
+  margin: 0 auto;
+  height: 1.875rem;
+  margin-top: 0.8125rem;
+  -webkit-display: flex;
+  display: flex;
+  margin-bottom: 0.625rem; }
+  .zhao span {
+    display: block;
+    width: 1rem;
+    height: 1.2rem;
+    background: url(../images/IMG_0097_r2_c2.png);
+    background-size: contain;
+    margin: 0.5rem 0.5rem; }
+  .zhao input {
+    display: block;
+    border: none;
+    height: 100%;
+    -webkit-flex: 1;
+    flex: 1; }
+
+.zhao1 {
+  width: 80%;
+  margin-left: 1.25rem;
+  float: left; }
+
+.cancel {
+  line-height: 3.5rem;
+  padding-left: 5px;
+  color: #29CC6D;
+  font-size: 0.75rem; }
+
+.da-city {
+  padding-left: 2rem;
+  color: #666;
+  line-height: 2rem;
+  font-size: 0.75rem;
+  background: #fff; }
+
+/*# sourceMappingURL=city.css.map */

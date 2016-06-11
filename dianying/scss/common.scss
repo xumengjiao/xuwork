@@ -1,0 +1,43 @@
+a{
+	text-decoration:none;
+}
+*{
+	margin:0;
+	padding:0;
+	outline:none;
+}
+li{
+	list-style:none;
+}
+input{
+	-webkit-appearance:none;
+	appearance:none;
+	outline:none;
+}
+html{
+	font-size:100%;
+}
+h1,h2,h3,h4,h5,h6,p{
+	font-size:0.875rem;
+}
+$basebg:#1B1B20;
+@mixin xia(){
+	&:after{
+		content:"";
+		display:inline-block;
+		
+		width:7px;
+		height:7px;
+		display:block;
+		border:1px solid transparent;
+		border-top-color:#6C6C6C;
+		border-left-color:#6C6C6C;
+		transform: rotate(225deg);
+		
+
+	}
+}
+.green{
+	color:#29CC6D;
+
+}

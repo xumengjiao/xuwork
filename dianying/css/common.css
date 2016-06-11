@@ -1,0 +1,26 @@
+a {
+  text-decoration: none; }
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none; }
+
+li {
+  list-style: none; }
+
+input {
+  -webkit-appearance: none;
+  appearance: none;
+  outline: none; }
+
+html {
+  font-size: 100%; }
+
+h1, h2, h3, h4, h5, h6, p {
+  font-size: 0.875rem; }
+
+.green {
+  color: #29CC6D; }
+
+/*# sourceMappingURL=common.css.map */
